@@ -20,6 +20,47 @@ const Home: NextPage = () => {
   return (
     <Box>
       <Flex
+        justifyContent={"space-between"}
+        w={["95%", "95%", "90%", "90%"]}
+        mx="auto"
+      >
+        <Box w={["100%", "100%", "50%", "50%"]}>
+          <Text
+            fontSize="42px"
+            color={useColorModeValue(
+              "lightMode.mainTextColor",
+              "darkMode.mainTextColor"
+            )}
+          >
+            Learn how to code and build things in{" "}
+            <Box as="span">
+              {"<"}Programming{"/>"}
+            </Box>{" "}
+          </Text>
+        </Box>
+
+        <Box w={["100%", "100%", "30%", "30%"]}>
+          <Text>
+            Because learning to code might be the easiest way to change your
+            career
+          </Text>
+
+          <Button
+            background="transparent"
+            w="100%"
+            h="58px"
+            borderRadius="25px"
+            mt="17px"
+            color={useColorModeValue(
+              "lightMode.mainTextColor",
+              "darkMode.mainTextColor"
+            )}
+          >
+            Join a Class
+          </Button>
+        </Box>
+      </Flex>
+      <Flex
         marginTop="10px"
         width={["100%", "100%", "70%", "60%"]}
         textAlign="center"
