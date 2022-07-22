@@ -38,7 +38,7 @@ const NavBar: NextPage = () => {
         )}
       >
         <Flex>
-          <Heading>LoGo</Heading>
+          <Heading>LOGO</Heading>
           <Spacer />
           <Flex>
             <Menu>
