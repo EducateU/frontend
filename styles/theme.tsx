@@ -5,10 +5,6 @@ const config: ThemeConfig = {
   useSystemColorMode: true,
 };
 export const customTheme = extendTheme({
-  fonts: {
-    heading: `'Inter', sans-serif`,
-    body: `'Roboto', sans-serif`,
-  },
   config,
   components: {
     Form: {
@@ -52,7 +48,7 @@ export const customTheme = extendTheme({
           bgColor: "none",
           size: "md",
           color: "#fff",
-          fontWeight: "700",
+          fontWeight: "500",
           _hover: {
             boxShadow: "lg",
             bgColor: "lightMode.pryColor",
@@ -70,7 +66,7 @@ export const customTheme = extendTheme({
           size: "md",
           border: "1px solid #01a3a4",
           color: "#01a3a4",
-          fontWeight: "700",
+          fontWeight: "500",
           _hover: {
             bgColor: "lightMode.blue",
           },
